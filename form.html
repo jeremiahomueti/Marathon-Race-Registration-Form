@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Race Registration</title>
+  </head>
+  <body>
+    <form action="/boilerplate.com">
+      <h1>Race Registration</h1>
+      <p></p>
+      <label for="fName"
+        >First Name:
+        <input type="text" required id="fName" name="firstName" />
+      </label>
+      <p></p>
+      <label for="lName"
+        >Last Name:
+        <input type="text" name="lastName" id="lName" required />
+      </label>
+
+      <p></p>
+
+      <label for="funRun"
+        >Select a Race:
+        <p></p>
+        <input type="radio" id="funRun" name="MarathonType" />
+        <label for="funRun">Fun Run 5k</label>
+        <p></p>
+        <input type="radio" id="halfMarathon" name="MarathonType" />
+        <label for="halfMarathon">Half Marathon</label>
+        <p></p>
+        <input type="radio" id="fullMarathon" name="MarathonType" />
+        <label for="fullMarathon">Full Marathon</label>
+      </label>
+
+      <p></p>
+
+      <label for="eMail"
+        >Email:
+        <input type="email" id="eMail" name="email" required />
+      </label>
+      <label for="pWord"
+        >Password:
+        <input type="password" id="pWord" name="password" required />
+      </label>
+
+      <p></p>
+
+      <label for="ageGroup"
+        >Select Age Group:
+        <select name="AgeGroup" id="ageGroup">
+          <option value="0-14">0-14</option>
+          <option value="15-64">15-64</option>
+          <option value="65+">65+</option>
+        </select>
+      </label>
+
+      <p></p>
+
+      <button>Register!</button>
+    </form>
+  </body>
+</html>
